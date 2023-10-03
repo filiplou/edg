@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="energyBill" usingRuleflow="true" ruleflowName="mainFlow" targetRuleProjectName="energyBill">
+  <name>energyBill</name>
+  <uuid>fb7e3529-35b4-4372-bcbd-08a39c31f04b</uuid>
+  <referencedVariables variableName="theBrand" variableSetName="vars">
+    <variableSet href="../rules/vars.var#a754447a-6e10-4031-ae1d-8ccaf0cd533f"/>
+  </referencedVariables>
+  <referencedVariables variableName="theUsage" variableSetName="vars">
+    <variableSet href="../rules/vars.var#a754447a-6e10-4031-ae1d-8ccaf0cd533f"/>
+  </referencedVariables>
+  <referencedVariables variableName="theInvoice" variableSetName="vars" direction="IN_OUT">
+    <variableSet href="../rules/vars.var#a754447a-6e10-4031-ae1d-8ccaf0cd533f"/>
+  </referencedVariables>
+  <ruleflow href="../rules/mainFlow.rfl#39f0ec7f-0be6-4273-bacd-3ebc69728436"/>
+  <targetRuleProject href="../../energyBill#5b09630d-002f-4028-b987-16a01589b3a1"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["energyBill-energyBill"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

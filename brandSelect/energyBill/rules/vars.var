@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" language="ARL">
+  <name>vars</name>
+  <uuid>a754447a-6e10-4031-ae1d-8ccaf0cd533f</uuid>
+  <variables name="theBrand" type="flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand" initialValue="" verbalization="the Brand" jsonName=""/>
+  <variables name="theUsage" type="flou_au1.ibm.com.flou_edg.brandselect.branddata.Order" initialValue="" verbalization="the Order" jsonName=""/>
+  <variables name="theInvoice" type="flou_au1.ibm.com.flou_edg.brandselect.branddata.Invoice" initialValue="" verbalization="the Invoice" jsonName=""/>
+</ilog.rules.studio.model.base:VariableSet>

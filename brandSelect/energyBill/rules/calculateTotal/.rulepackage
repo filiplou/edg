@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>calculateTotal</name>
+  <uuid>38411d15-a2f7-4263-9387-13b5e0ea7878</uuid>
+</ilog.rules.studio.model.base:RulePackage>

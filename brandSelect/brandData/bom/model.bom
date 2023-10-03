@@ -1,0 +1,108 @@
+
+package flou_au1.ibm.com.flou_edg.brandselect.branddata;
+
+
+public class Brand
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "brand"
+        property "de.generated" "true"
+{
+    public string brandName
+                property "ads.attributeId" "7"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "brandName"
+                property update "true";
+    public double discount
+                property "ads.attributeId" "9"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "discount"
+                property update "true";
+    public string liquorName
+                property "ads.attributeId" "8"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "liquorName"
+                property update "true";
+    public string liquorType
+                property "ads.attributeId" "6"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "liquorType"
+                property update "true";
+    public double minOrder
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "minOrder"
+                property update "true";
+    public double price
+                property "ads.attributeId" "5"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "price"
+                property update "true";
+    public Brand(string brandName, double discount, string liquorName, string liquorType, double minOrder, double price)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Brand()
+                property "dataio.default" "true";
+}
+
+public class EglCodes
+        property "ads.typeId" "5"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "eglCodes"
+        property "de.generated" "true"
+{
+    public string brandName
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "brandName"
+                property update "true";
+    public string wowValue
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "wowValue"
+                property update "true";
+    public EglCodes(string brandName, string wowValue)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public EglCodes()
+                property "dataio.default" "true";
+}
+
+public class Invoice
+        property "ads.typeId" "4"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "invoice"
+        property "de.generated" "true"
+{
+    public double totalAmount
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "totalAmount"
+                property update "true";
+    public Invoice(double totalAmount)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Invoice()
+                property "dataio.default" "true";
+}
+
+public class Order
+        property "ads.typeId" "2"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "order"
+        property "de.generated" "true"
+{
+    public string brandName
+                property "ads.attributeId" "6"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "brandName"
+                property update "true";
+    public double orderAmount
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "orderAmount"
+                property update "true";
+    public string orderItem
+                property "ads.attributeId" "5"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "orderItem"
+                property update "true";
+    public Order(string brandName, double orderAmount, string orderItem)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Order()
+                property "dataio.default" "true";
+}
+

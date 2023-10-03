@@ -1,0 +1,50 @@
+
+# flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand#concept.label = brand
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.Brand(java.lang.String,double,java.lang.String,java.lang.String,double,double)#phrase.navigation = a new {brand} where {0, brandName} {1, discount} {2, liquorName} {3, liquorType} {4, minOrder} {5, price}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.brandName#phrase.action = set the brandName of {this} to {brandName}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.brandName#phrase.navigation = {brandName} of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.discount#phrase.action = set the discount of {this} to {discount}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.discount#phrase.addition_setter = add {discount} to the discount of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.discount#phrase.navigation = {discount} of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.discount#phrase.subtraction_setter = subtract {discount} from the discount of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.liquorName#phrase.action = set the liquorName of {this} to {liquorName}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.liquorName#phrase.navigation = {liquorName} of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.liquorType#phrase.action = set the liquorType of {this} to {liquorType}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.liquorType#phrase.navigation = {liquorType} of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.minOrder#phrase.action = set the minOrder of {this} to {minOrder}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.minOrder#phrase.addition_setter = add {minOrder} to the minOrder of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.minOrder#phrase.navigation = {minOrder} of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.minOrder#phrase.subtraction_setter = subtract {minOrder} from the minOrder of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.price#phrase.action = set the price of {this} to {price}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.price#phrase.addition_setter = add {price} to the price of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.price#phrase.navigation = {price} of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Brand.price#phrase.subtraction_setter = subtract {price} from the price of {this}
+
+# flou_au1.ibm.com.flou_edg.brandselect.branddata.EglCodes
+flou_au1.ibm.com.flou_edg.brandselect.branddata.EglCodes#concept.label = eglCodes
+flou_au1.ibm.com.flou_edg.brandselect.branddata.EglCodes.EglCodes(java.lang.String,java.lang.String)#phrase.navigation = a new {eglCodes} where {0, brandName} {1, wowValue}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.EglCodes.brandName#phrase.action = set the brandName of {this} to {brandName}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.EglCodes.brandName#phrase.navigation = {brandName} of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.EglCodes.wowValue#phrase.action = set the wowValue of {this} to {wowValue}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.EglCodes.wowValue#phrase.navigation = {wowValue} of {this}
+
+# flou_au1.ibm.com.flou_edg.brandselect.branddata.Invoice
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Invoice#concept.label = invoice
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Invoice.Invoice(double)#phrase.navigation = a new {invoice} where {0, totalAmount}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Invoice.totalAmount#phrase.action = set the totalAmount of {this} to {totalAmount}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Invoice.totalAmount#phrase.addition_setter = add {totalAmount} to the totalAmount of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Invoice.totalAmount#phrase.navigation = {totalAmount} of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Invoice.totalAmount#phrase.subtraction_setter = subtract {totalAmount} from the totalAmount of {this}
+
+# flou_au1.ibm.com.flou_edg.brandselect.branddata.Order
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Order#concept.label = order
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Order.Order(java.lang.String,double,java.lang.String)#phrase.navigation = a new {order} where {0, brandName} {1, orderAmount} {2, orderItem}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Order.brandName#phrase.action = set the brandName of {this} to {brandName}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Order.brandName#phrase.navigation = {brandName} of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Order.orderAmount#phrase.action = set the orderAmount of {this} to {orderAmount}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Order.orderAmount#phrase.addition_setter = add {orderAmount} to the orderAmount of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Order.orderAmount#phrase.navigation = {orderAmount} of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Order.orderAmount#phrase.subtraction_setter = subtract {orderAmount} from the orderAmount of {this}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Order.orderItem#phrase.action = set the orderItem of {this} to {orderItem}
+flou_au1.ibm.com.flou_edg.brandselect.branddata.Order.orderItem#phrase.navigation = {orderItem} of {this}
