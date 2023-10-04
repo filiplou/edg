@@ -7,4 +7,13 @@
   </referencedVariables>
   <ruleflow href="../rules/mainFlow.rfl#4f3c73ba-87b7-4764-bda9-5055553bb2a7"/>
   <targetRuleProject href="../../identityMapper#74d2a8ac-6c09-44fc-b8ce-79f0c50ae384"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["identityMapper-identityMapper"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
 </com.ibm.rules.studio.model.decisionservice:Operation>
