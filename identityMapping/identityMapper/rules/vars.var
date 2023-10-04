@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" language="ARL">
+  <name>vars</name>
+  <uuid>386702ab-2ef0-4b2c-8dc5-8c4b662e019b</uuid>
+  <variables name="IDN" type="flou_au1.ibm.com.flou_edg.identitymapping.identitydata.IDN" initialValue="" verbalization="the IDN" jsonName=""/>
+</ilog.rules.studio.model.base:VariableSet>

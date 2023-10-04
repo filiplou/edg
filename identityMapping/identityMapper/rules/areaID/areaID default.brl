@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>areaID default</name>
+  <uuid>bd0d83e8-0d87-4335-b647-44ce2ef3c384</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the areaIDWOW of 'the IDN' is null or the areaIDWOW of 'the IDN' is empty 
+then
+	set the areaIDWOW of 'the IDN' to "20001838" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

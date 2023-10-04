@@ -1,0 +1,112 @@
+
+package flou_au1.ibm.com.flou_edg.identitymapping.identitydata;
+
+
+public class IDN
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "IDN"
+        property "de.generated" "true"
+{
+    public string area
+                property "ads.attributeId" "5"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "area"
+                property update "true";
+    public string areaID
+                property "ads.attributeId" "17"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "areaID"
+                property update "true";
+    public string areaIDWOW
+                property "ads.attributeId" "18"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "areaIDWOW"
+                property update "true";
+    public string areaWOW
+                property "ads.attributeId" "15"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "areaWOW"
+                property update "true";
+    public string brand
+                property "ads.attributeId" "10"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "brand"
+                property update "true";
+    public string brandID
+                property "ads.attributeId" "9"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "brandID"
+                property update "true";
+    public string brandIDWOW
+                property "ads.attributeId" "13"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "brandIDWOW"
+                property update "true";
+    public string brandWOW
+                property "ads.attributeId" "12"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "brandWOW"
+                property update "true";
+    public string location
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "location"
+                property update "true";
+    public string locationId
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "locationId"
+                property update "true";
+    public string locationIdWOW
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "locationIdWOW"
+                property update "true";
+    public string locationWOW
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "locationWOW"
+                property update "true";
+    public string notes
+                property "ads.attributeId" "16"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "notes"
+                property update "true";
+    public string opsSupportID
+                property "ads.attributeId" "11"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "OpsSupportID"
+                property update "true";
+    public string opsSupportIDWOW
+                property "ads.attributeId" "14"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "OpsSupportIDWOW"
+                property update "true";
+    public string region
+                property "ads.attributeId" "7"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "region"
+                property update "true";
+    public string regionID
+                property "ads.attributeId" "19"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "regionID"
+                property update "true";
+    public string regionIDWOW
+                property "ads.attributeId" "20"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "regionIDWOW"
+                property update "true";
+    public string regionWOW
+                property "ads.attributeId" "8"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "regionWOW"
+                property update "true";
+    public IDN(string area, 
+        string areaID, 
+        string areaIDWOW, 
+        string areaWOW, 
+        string brand, 
+        string brandID, 
+        string brandIDWOW, 
+        string brandWOW, 
+        string location, 
+        string locationId, 
+        string locationIdWOW, 
+        string locationWOW, 
+        string regionIDWOW, 
+        string notes, 
+        string opsSupportID, 
+        string opsSupportIDWOW, 
+        string region, 
+        string regionID, 
+        string regionWOW)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public IDN()
+                property "dataio.default" "true";
+}
+

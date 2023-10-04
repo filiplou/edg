@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="identityMapper" usingRuleflow="true" ruleflowName="mainFlow" targetRuleProjectName="identityMapper">
+  <name>identityMapper</name>
+  <uuid>36030287-7442-4d9d-a71c-80603f37c713</uuid>
+  <referencedVariables variableName="IDN" variableSetName="vars" direction="IN_OUT">
+    <variableSet href="../rules/vars.var#386702ab-2ef0-4b2c-8dc5-8c4b662e019b"/>
+  </referencedVariables>
+  <ruleflow href="../rules/mainFlow.rfl#4f3c73ba-87b7-4764-bda9-5055553bb2a7"/>
+  <targetRuleProject href="../../identityMapper#74d2a8ac-6c09-44fc-b8ce-79f0c50ae384"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

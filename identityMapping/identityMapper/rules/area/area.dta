@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.dt:DecisionTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.dt="http://ilog.rules.studio/model/dt.ecore">
+  <name>area</name>
+  <uuid>98284dcf-1eed-4fd3-a409-7139231be411</uuid>
+  <locale>en_US</locale>
+  <definition><DT xmlns="http://schemas.ilog.com/Rules/7.0/DecisionTable" Version="7.0">
+    <Body>
+        <Properties>
+            <Property Name="UI.MediaType"><![CDATA[Web]]></Property>
+        </Properties>
+        <Structure>
+            <ConditionDefinitions>
+                <ConditionDefinition Id="C0">
+                    <ExpressionDefinition>
+                        <Text><![CDATA[the area of 'the IDN' contains <a string> ]]></Text>
+                    </ExpressionDefinition>
+                </ConditionDefinition>
+            </ConditionDefinitions>
+            <ActionDefinitions>
+                <ActionDefinition Id="A0">
+                    <ExpressionDefinition>
+                        <Text><![CDATA[set the areaWOW of 'the IDN' to <a string> ]]></Text>
+                    </ExpressionDefinition>
+                </ActionDefinition>
+            </ActionDefinitions>
+        </Structure>
+        <Contents>
+            <Partition DefId="C0">
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["Integration & Change"]]></Param>
+                    </Expression>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression>
+                                <Param><![CDATA["ED - Group Support Functions"]]></Param>
+                            </Expression>
+                        </Action>
+                    </ActionSet>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["Mergers & Acquisition"]]></Param>
+                    </Expression>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression>
+                                <Param><![CDATA["ED - Strategy"]]></Param>
+                            </Expression>
+                        </Action>
+                    </ActionSet>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["Strategy"]]></Param>
+                    </Expression>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression>
+                                <Param><![CDATA["ED - Strategy"]]></Param>
+                            </Expression>
+                        </Action>
+                    </ActionSet>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["Strategy & Transformation Head Office"]]></Param>
+                    </Expression>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression>
+                                <Param><![CDATA["ED - Strategy"]]></Param>
+                            </Expression>
+                        </Action>
+                    </ActionSet>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["Transformation"]]></Param>
+                    </Expression>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression>
+                                <Param><![CDATA["ED - Strategy"]]></Param>
+                            </Expression>
+                        </Action>
+                    </ActionSet>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["Infrastructure & Service"]]></Param>
+                    </Expression>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression>
+                                <Param><![CDATA["Technology - Service Delivery"]]></Param>
+                            </Expression>
+                        </Action>
+                    </ActionSet>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["Customer Technology"]]></Param>
+                    </Expression>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression>
+                                <Param><![CDATA["ED - Technology - Digital"]]></Param>
+                            </Expression>
+                        </Action>
+                    </ActionSet>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["Technology Head Office"]]></Param>
+                    </Expression>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression>
+                                <Param><![CDATA["Technology - Leadership"]]></Param>
+                            </Expression>
+                        </Action>
+                    </ActionSet>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["Group Technology"]]></Param>
+                    </Expression>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression>
+                                <Param><![CDATA["ED - Technology - Digital"]]></Param>
+                            </Expression>
+                        </Action>
+                    </ActionSet>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["Team Technology"]]></Param>
+                    </Expression>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression>
+                                <Param><![CDATA["ED - Technology - Digital"]]></Param>
+                            </Expression>
+                        </Action>
+                    </ActionSet>
+                </Condition>
+            </Partition>
+        </Contents>
+    </Body>
+    <Resources DefaultLocale="en_US">
+        <ResourceSet Locale="en_US">
+            <Data Name="Definitions(C0)#HeaderText"><![CDATA[area]]></Data>
+            <Data Name="Definitions(A0)[0]#HeaderText"><![CDATA[a string]]></Data>
+            <Data Name="Definitions(C0)[0]#HeaderText"><![CDATA[a character]]></Data>
+            <Data Name="Definitions(A0)#HeaderText"><![CDATA[area WOW]]></Data>
+        </ResourceSet>
+    </Resources>
+</DT>
+</definition>
+</ilog.rules.studio.model.dt:DecisionTable>

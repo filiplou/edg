@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>area default</name>
+  <uuid>dacee7a5-4be9-42af-98d5-70dd97036d02</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the areaWOW of 'the IDN' is null or the areaWOW of 'the IDN' is empty 
+then
+	set the areaWOW of 'the IDN' to "ED - Group Support Functions" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
