@@ -23,7 +23,11 @@
                     <Package Name="area"/>
                 </RuleList>
             </RuleTask>
-            <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_6" Ordering="Default"/>
+            <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_6" Ordering="Default">
+                <RuleList>
+                    <Package Name="region"/>
+                </RuleList>
+            </RuleTask>
         </TaskList>
         <NodeList>
             <TaskNode Identifier="node_0" Task="task_0"/>
