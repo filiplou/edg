@@ -9,23 +9,25 @@
             <StartTask Identifier="task_0"/>
             <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_1" Ordering="Default">
                 <RuleList>
-                    <Package Name="areaID"/>
+                    <Rule Uuid="bd0d83e8-0d87-4335-b647-44ce2ef3c384"/>
+                    <Rule Uuid="d9763a8e-685a-4314-bab0-7c77af2eb9cc"/>
                 </RuleList>
             </RuleTask>
             <StopTask Identifier="task_2"/>
             <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_3" Ordering="Default">
                 <RuleList>
-                    <Package Name="regionID"/>
+                    <Rule Uuid="a6991744-1b14-4a0b-8a14-8fca7f9ceec6"/>
                 </RuleList>
             </RuleTask>
             <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_5" Ordering="Default">
                 <RuleList>
-                    <Package Name="area"/>
+                    <Rule Uuid="dacee7a5-4be9-42af-98d5-70dd97036d02"/>
+                    <Rule Uuid="98284dcf-1eed-4fd3-a409-7139231be411"/>
                 </RuleList>
             </RuleTask>
             <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_6" Ordering="Default">
                 <RuleList>
-                    <Package Name="region"/>
+                    <Rule Uuid="8c8b2364-4689-42d3-bf70-319479a611ab"/>
                 </RuleList>
             </RuleTask>
         </TaskList>
